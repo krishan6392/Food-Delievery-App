@@ -3,6 +3,7 @@ import 'package:food_delivery_app/pages/account/account_page.dart';
 import 'package:food_delivery_app/pages/auth/sign_in_page.dart';
 import 'package:food_delivery_app/pages/auth/sign_up_page.dart';
 import 'package:food_delivery_app/pages/cart/cart_history.dart';
+import 'package:food_delivery_app/pages/cart/cart_page.dart';
 import 'package:food_delivery_app/pages/home/main_food_page.dart';
 import 'package:food_delivery_app/utilities/colors.dart';
 
@@ -19,10 +20,8 @@ class _HomePageState extends State<HomePage> {
 
   List pages = [
     MainFoodPage(),
-    Container(
-      child: Center(child: Text("history page")),
-    ),
     CartHistory(),
+    CartPage(),
     AccountPage(),
   ];
   void onTapNav(int index) {

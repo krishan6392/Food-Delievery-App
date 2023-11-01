@@ -3,7 +3,6 @@ import 'package:food_delivery_app/controller/cart_controller.dart';
 import 'package:food_delivery_app/controller/popular_product_controller.dart';
 import 'package:food_delivery_app/controller/recommended_product_controller.dart';
 import 'package:food_delivery_app/routes/route_helper.dart';
-
 import 'package:get/get.dart';
 import 'helper/dependencies.dart' as dep;
 
